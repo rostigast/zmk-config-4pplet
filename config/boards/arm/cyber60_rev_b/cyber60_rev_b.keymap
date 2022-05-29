@@ -20,11 +20,11 @@
 // |  LCTL  |  LWIN  |  LALT  | SPACE  | SPACE |    SPACE   |  RALT | FN  |   RWIN  | RCTRL |
 // | Rotary | (<-- Rotary switch) ----------------------------------------------------------- 
 				bindings = <
-	&kp ESC		 &kp NUM_1 	&kp NUM_2	&kp NUM_3 	&kp NUM_4 &kp NUM_5 &kp NUM_6 	&kp NUM_7 	&kp NUM_8 &kp NUM_9	&kp NUM_0	&kp MINUS	&kp EQL  	&none	&kp BKSP
+	&kp ESC		 &kp N1 	&kp N2	&kp N3 	&kp N4 &kp N5 &kp N6 	&kp N7 	&kp N8 &kp N9	&kp N0	&kp MINUS	&kp EQUAL  	&none	&kp BSPC
 	&kp TAB		 &kp   Q   	&kp   W   	&kp   E   	&kp   R   &kp   T   &kp   Y   	&kp   U   	&kp   I   &kp   O   &kp   P   	&kp LBKT 	&kp RBKT	&kp BSLH
-	&kp CLCK 	 &kp   A   	&kp   S   	&kp   D   	&kp   F   &kp   G   &kp   H   	&kp   J   	&kp   K   &kp   L   &kp  SCLN  	&kp  QUOT   &none		&kp RET
-	&kp LSFT 	 &none		&kp   Z   	&kp   X   	&kp   C   &kp   V   &kp   B   	&kp   N   	&kp   M   &kp  CMMA &kp  DOT  	&kp  FSLH	&kp RSFT 	&mo FN1
-	&kp LCTL 	 &kp LGUI   &kp   LALT				&kp SPC			&kp SPC			&kp  SPC  			  &kp  RALT &mo  FN1 	&kp RGUI	&kp  RCTL		
+	&kp CLCK 	 &kp   A   	&kp   S   	&kp   D   	&kp   F   &kp   G   &kp   H   	&kp   J   	&kp   K   &kp   L   &kp  SEMI  	&kp  SQT   &none		&kp RET
+	&kp LSHIFT 	 &none		&kp   Z   	&kp   X   	&kp   C   &kp   V   &kp   B   	&kp   N   	&kp   M   &kp  COMMA &kp  DOT  	&kp  FSLH	&kp RSHIFT 	&mo FN1
+	&kp LCTRL 	 &kp LGUI   &kp   LALT				&kp SPACE			&kp SPACE			&kp  SPACE  			  &kp  RALT &mo  FN1 	&kp RGUI	&kp  RCTRL		
 	&kp C_PP
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
